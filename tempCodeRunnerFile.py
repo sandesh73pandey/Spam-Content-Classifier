@@ -1,0 +1,4 @@
+from sklearn.metrics import PredictionErrorDisplay
+
+
+prediction=PredictionErrorDisplay

@@ -1,0 +1,14 @@
+{% if prediction==1 and phishing_prediction==1 %}
+<h1>Spam and safe URL</h1>
+{% endif %}
+{% if prediction==0 and phishing_prediction==-1 %}
+<h1>Ham content and unsafe URL</h1>
+{% endif %}
+{% if prediction==1 and phishing_prediction==-1 %}
+<h1>Spam content and unsafe URL</h1>
+{% endif %}
+{% if prediction==0 and phishing_prediction==1 %}
+<h1>Ham content and safe URL</h1>
+{% endif %}
+
+  
