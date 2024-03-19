@@ -1,0 +1,7 @@
+body{
+    background: url("homepage_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+  
+}

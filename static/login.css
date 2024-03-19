@@ -1,0 +1,59 @@
+body{
+    background: url("homepage_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+
+.loginform_container form{
+    height:200px;
+    width: 200px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+    
+}
+#username_field,#password_field{
+    height: 30px;
+    width: 2000px;
+    /* margin: 10px; */
+    border: 1px solid black;
+    background: none;
+    color:white;
+    border:2px;
+    border-radius: 0px;
+    border-color: white;
+
+    
+}
+#username_field::placeholder,#password_field::placeholder{
+    color: white;
+    font-size: 14px;
+}
+#submit_btn{
+    height: 30px;
+    width: 90px;
+    /* margin: 10px; */
+    background-color: white;
+    color:black;
+    border: none;
+    font-size: 14px;
+    
+}
+
+#login_text{
+    font-family: Lucida Console, Monaco, monospace;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    height: 30px;
+    width:100%;
+}

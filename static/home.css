@@ -1,0 +1,61 @@
+body{
+    background: url("homepage_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;  */
+    margin: 0;
+    height: 100vh;
+   flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.homepagelink_container{
+    height: 70px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+     margin-bottom: 10%;  
+     /* margin-left: 50%;  */
+     
+        
+}
+.homepagelink_container a{
+    height:30px;
+    width:80px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    font-family: Lucida Console, Monaco, monospace;
+    font-size: 14px;  
+
+}
+.homepagelink_container a:hover{
+    background-color: white;
+    color: black;
+    transition:ease-in-out 0.5s;
+}
+
+
+
+
+.homepage_welcometext{
+    font-family: Lucida Console, Monaco, monospace;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 100px;
+    width:100%;
+    
+   
+}
+
+#or_text{
+    color:white;
+    font-family: Lucida Console, Monaco, monospace;
+}
